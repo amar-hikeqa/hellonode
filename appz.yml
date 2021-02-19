@@ -8,7 +8,7 @@ build:
     build_file: none
     output_files: output/*.zip
     image_template: node-10.22
-    image_name: alpha/nodejs-helloworld
+    image_name: amar-hikeqa/nodejs-helloworld
 
 deploy:
     context: amar-hikeqa/DEV
@@ -18,10 +18,10 @@ deploy:
     - 80
     
 monitor:
-    notify: appzops@cloudbourne.co
+    notify: amaregouda@hikeqa.com
 
 properties:
     page_title: "React-bootstrap + nodejs-express App"
-    site_url: "https://hellonodejs.3.141.205.127.lowtouch.cloud/"
+    site_url: "https://hellonodejs.038dcd7f.lowtouch.cloud"
     revision: 13
     page_color: Blue
