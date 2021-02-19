@@ -1,8 +1,7 @@
 app:
     name: Hello Node
     code: hellonode
-    notify: appzdev@cloudbourne.co
-
+    notify: amaregouda@hikeqa.com
 build:
     version: 0.1
     env: DEV
@@ -12,7 +11,7 @@ build:
     image_name: alpha/nodejs-helloworld
 
 deploy:
-    context: alpha/DEV
+    context: amar-hikeqa/DEV
     replicas: 1
     port:
     - 8080
@@ -23,6 +22,6 @@ monitor:
 
 properties:
     page_title: "React-bootstrap + nodejs-express App"
-    site_url: "https://hellonodejs.appzclient.com/"
+    site_url: "https://hellonodejs.appz.038dcd7f.lowtouch.cloud"
     revision: 13
     page_color: Blue
